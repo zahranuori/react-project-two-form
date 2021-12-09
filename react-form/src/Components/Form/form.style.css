@@ -1,0 +1,50 @@
+.Forms {
+  max-width: 500px;
+  margin: auto;
+  padding: 1rem;
+}
+.Lables{
+    color: brown;
+    background-color: darkolivegreen;
+}
+#input1 {
+    border: 1px solid rgb(70, 2, 38);
+    border-radius: .3rem;
+    padding: .5rem;
+    margin: .4rem;
+    
+
+}
+
+#input2 {
+    border: 1px solid rgb(70, 2, 38);
+    border-radius: .3rem;
+    padding: .5rem;
+    margin: .4rem;
+
+}
+#input3 {
+    border: 1px solid rgb(70, 2, 38);
+    border-radius: .3rem;
+    padding: .5rem;
+    margin: .4rem;
+    margin-left: 1.3rem;
+
+}
+
+.submit {
+    margin-left: 9rem;
+    height: 2rem;
+    width: 5rem;
+    margin: 1rem;
+    margin-left: 9rem;
+    background-color: rgb(161, 226, 191);
+    border: 1px solid rgb(5, 77, 20);
+    border-radius: 1.1rem;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: rgb(11, 175, 88);
+    border: 1px solid rgb(233, 203, 186);
+    color: cornsilk;
+}

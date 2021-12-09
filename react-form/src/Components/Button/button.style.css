@@ -1,0 +1,15 @@
+.CustomButton{
+    min-width: 1.5rem;
+    padding:1rem  1.4rem;
+    margin: .3rem;
+    background-color: rgb(226, 200, 226);
+    border: 1px solid rgb(73, 2, 61);
+    border-radius: 1.3rem;
+    cursor: pointer;
+
+}
+.CustomButton:hover{
+    background-color: rgb(131, 53, 155);
+    border: 1px solid rgb(235, 170, 205);
+    color: beige;
+}
