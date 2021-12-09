@@ -1,6 +1,11 @@
+.Image-header {
+    width: 20%;
+    height: 50%;
+    margin-left: 40%;
+
+}
 .Forms {
-  max-width: 500px;
-  margin: auto;
+  margin-left: 35%;
   padding: 1rem;
 }
 .Lables{
@@ -33,11 +38,10 @@
 }
 
 .submit {
-    margin-left: 9rem;
     height: 2rem;
-    width: 5rem;
+    width: 7rem;
     margin: 1rem;
-    margin-left: 9rem;
+    margin-left: 7rem;
     background-color: rgb(161, 226, 191);
     border: 1px solid rgb(5, 77, 20);
     border-radius: 1.1rem;

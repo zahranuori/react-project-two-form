@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import information from  './Components/Header/img/information.jpg'
 import './App.css';
 import { Table } from './Components/Table/Table';
 import Form from './Components/Form/Form';
@@ -13,7 +14,7 @@ const [users, setUsers] = useState(usersList)
 const [user, setUser] = useState({ firstName: "", lastName: '', job: '' })
   return (
     <div>
-      
+      <img src={information} className='Image-header' />
       <Table user={user} setUser={setUser} setUsers={setUsers} users={users}/>
       <Form user={user} setUser={setUser} setUsers={setUsers} users={users}/>
   
